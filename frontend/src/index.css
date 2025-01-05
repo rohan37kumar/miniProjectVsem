@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f0f2f5;
+    background-image: 
+        radial-gradient(#ffe4d6 15%, transparent 16%),
+        radial-gradient(#e1f5fe 15%, transparent 16%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    position: relative;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/* App layout */
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Footer styles */
+.footer {
+    flex-shrink: 0;
+    background-color: #0a1449;
+    color: #ffffff;
+    padding: 2rem 0;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation styles */
+.navbar {
+    padding: 1rem 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e3f2fd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+/* Form styles */
+.adoption-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Social links in footer */
+.social-links a {
+    color: #ffffff;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #90caf9;
+    transform: translateY(-2px);
+}
+
+/* FontAwesome icon styles */
+.fa-icon {
+    margin-right: 0.5rem;
+}
+
+/* Container padding */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Card styles */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e3f2fd;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Button styles */
+.btn {
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-primary {
+    background-color: #1a237e;
+    border-color: #1a237e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    background-color: #283593;
+    border-color: #283593;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Form control focus states */
+.form-control:focus {
+    background-color: #ffffff;
+    border-color: #64b5f6;
+    box-shadow: 0 0 0 0.2rem rgba(100, 181, 246, 0.25);
+}
+
+/* Utility classes */
+.text-muted {
+    color: #6c757d !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Add this to ensure content remains readable */
+.container, 
+.card, 
+.form-container {
+    background-color: rgba(255, 255, 255, 0.98);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Enhanced footer content visibility */
+.footer h5 {
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.footer p, 
+.footer a {
+    color: #001fa8;
+    font-weight: 500;
+}
+
+/* Enhanced navbar styles with active state */
+.nav-link {
+    color: #424242;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background-color: #e3f2fd;
+    color: #1a237e;
+}
